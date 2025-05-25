@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP_project_idf
 {
-    internal class Program
+    internal class maneger
     {
-        static void Main(string[] args)
-        { 
-           
-        }
+        
     }
 }

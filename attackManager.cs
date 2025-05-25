@@ -15,16 +15,24 @@ namespace OOP_project_idf
 
         
             
-        public void statushermes460_Zik_Drone()
+        public void status()
         {
             hermes460_Zik_Drone.Strike();
             f16FighterJet.Strike();
             m109Artillery.Strike();
         }
-        public string getFull()
+        public int getNumberOfHitsf16()
         {
-
-            return$"hermes460_Zik_Drone.Fuel{hermes460_Zik_Drone.Fuel()}  f16FighterJet.Fuel(){f16FighterJet.Fuel()}  m109Artillery.Fuel{m109Artillery.Fuel()}";
+            return f16FighterJet.NumberOfHits();
         }
+        public int getNumberOfHitszik()
+        {
+            return hermes460_Zik_Drone.NumberOfHits();
+        }
+        public int getNumberOfHitsm109()
+        {
+            return m109Artillery.NumberOfHits();
+        }
+
     }
 }

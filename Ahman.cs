@@ -1,66 +1,73 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
+using System.Xml.Linq;
 
 namespace OOP_project_idf
 {
     internal class Ahman
     {
-        Dictionary<string, List<Dictionary<string, string>>> terrorists = new Dictionary<string, List<Dictionary<string, string>>>();
-        Hamas hamas = new Hamas();
-        List<string> terorost;
+         static Dictionary<string, List<Ahman>> terorists = new Dictionary<string, List<Ahman>>();
 
-        public void ahman(string nameTerrorist, string location)
+        DateTime dateTime = new DateTime();
+        private string loction;
+        private string date;
+
+        public Ahman(string loction)
         {
-            DateTime time = DateTime.Now;
-
-            
-            Dictionary<string, string> report = new Dictionary<string, string>
-            {
-                { "location", location },
-                { "date", time.ToString("HH:mm dd/MM/yyyy") }
-            };
-
-            
-            if (!terrorists.ContainsKey(nameTerrorist))
-            {
-                terrorists[nameTerrorist] = new List<Dictionary<string, string>>();
-            }
-
-            terrorists[nameTerrorist].Add(report);
-
+            this.loction = loction;
             
         }
 
-        public void add()
+        public void addTerorist(string name, string loction)
         {
-            string loc = "home";
-            terorost = hamas.getLid();
-            foreach (string ter in terorost)
-            {
-                ahman(ter, loc);
-            }
-        }
+            this.date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
 
-        public string alerts()
+            if (!terorists.ContainsKey(name))
+            {
+                terorists[name] = new List<Ahman>();
+
+
+            }
+            terorists[name].Add(this);
+
+
+        }
+        public string getLoction(string name)
         {
-            string name = "";
+
+            if (terorists.ContainsKey(name))
+            {
+                return terorists[name].Last().loction;
+            }
+            return "not found";
+
+        }
+        public string mostAlerts()
+        {   
             int max = 0;
-
-            foreach (var kvp in terrorists)
+            string data = "";
+            foreach (string name in terorists.Keys)
             {
-                int reportCount = kvp.Value.Count;
-                if (reportCount > max)
+                if (terorists[name].Count >  max)
                 {
-                    max = reportCount;
-                    name = kvp.Key;
+                    max = terorists[name].Count;
+                    data = name;
                 }
-            }
 
-            return $"name: {name}, number: {max}";
+            }
+            return $"data{data}max{max}";
+            
+            
+
         }
 
-        
-        
+
+
+
+
+
     }
 }
