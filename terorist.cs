@@ -15,10 +15,11 @@ namespace OOP_project_idf
         public int rank;
         public int weapon;
         private bool aliveOrDead;
-        public Dictionary<string,int> dictWeapon;
 
-     
+
+        public Dictionary<string,int> dictWeapon;
         private int [] listrank;
+
         public Terorist(string name) 
         {
             this.name = name;
@@ -48,6 +49,10 @@ namespace OOP_project_idf
 
             
 
+        }
+        public bool alive(string name)
+        {
+            return aliveOrDead;
         }
         
         

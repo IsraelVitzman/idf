@@ -11,7 +11,7 @@ namespace OOP_project_idf
     {
          static Dictionary<string, List<Ahman>> terorists = new Dictionary<string, List<Ahman>>();
 
-        DateTime dateTime = new DateTime();
+        
         private string loction;
         private string date;
 

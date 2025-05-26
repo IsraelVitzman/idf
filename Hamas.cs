@@ -19,7 +19,7 @@ namespace OOP_project_idf
         public Hamas()
         {
 
-            this.dateOfEstablishment = "";
+            this.dateOfEstablishment = "1987";
             this.commandInChief = "";
             
 
@@ -57,7 +57,6 @@ namespace OOP_project_idf
 
                 
             }
-
 
             Console.WriteLine($"{resultName} {resultWeapon}{max}"); 
             return resultName;

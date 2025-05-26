@@ -15,7 +15,7 @@ namespace OOP_project_idf
         static void Main(string[] args)
         {   Ahman ahman=new Ahman();
             attackManager attackManager=new attackManager();
-            Console.WriteLine("");
+            Console.WriteLine("entor cooch");
             var input = Console.ReadLine();
             switch (input) 
             {
@@ -26,16 +26,17 @@ namespace OOP_project_idf
                     string name=Console.ReadLine();
                     string loction = Console.ReadLine();
                     string cooch = Console.ReadLine();
-                    
                     ahman.addTerorist(name,loction,cooch );
                     break;
 
                 case "3":
                     attackManager.status();
                     break;
+
                 case "4":
                     attackManager.attackTerorist();
                     break;
+
                  default:
                     Console.WriteLine("invalid error");
                     break;

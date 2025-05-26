@@ -15,7 +15,7 @@ namespace OOP_project_idf
 
         Hamas hamas = new Hamas();
         Ahman ahman = new Ahman();
-        List<Terorist> terorists = new List<Terorist>();
+       
 
         public void status()
         {
@@ -24,22 +24,10 @@ namespace OOP_project_idf
             m109Artillery.Strike();
         }
         
-        public int getNumberOfHitsf16()
-        {
-            return f16FighterJet.NumberOfHits();
-        }
-        public int getNumberOfHitszik()
-        {
-            return hermes460_Zik_Drone.NumberOfHits();
-        }
-        public int getNumberOfHitsm109()
-        {
-            return m109Artillery.NumberOfHits();
-        }
+        
         
         public void attackTerorist()
-        {
-            
+        {          
 
             var getName=hamas.getRank(); 
             var loction=ahman.getLoction(getName);
@@ -47,6 +35,7 @@ namespace OOP_project_idf
             hamas.removeTerorist(getName);
             Console.WriteLine("remuve sscfoly");
         }
+
         public void usToAtack(string loction)
         {
             int numberOfHits = f16FighterJet.NumberOfHits();
