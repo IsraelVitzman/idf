@@ -15,14 +15,28 @@ namespace OOP_project_idf
         private string loction;
         private string date;
 
-        public Ahman(string loction)
+        public Ahman()
         {
-            this.loction = loction;
+            
+            this.loction="";
             
         }
 
-        public void addTerorist(string name, string loction)
+        public void addTerorist(string name, string loction, int cooch)
         {
+            if (cooch==1)
+            {
+                this.loction = "home";
+            }
+            else if (cooch == 2)
+            {
+                this.loction = "outside";
+            }
+            else
+            {
+                Console.WriteLine("invalid");
+                return;
+            }  
             this.date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
 
             if (!terorists.ContainsKey(name))

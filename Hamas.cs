@@ -13,14 +13,14 @@ namespace OOP_project_idf
         private string dateOfEstablishment;
         private string commandInChief;
         
-        List<Terorist> listTerorists = new List<Terorist>();
+        static List<Terorist> listTerorists = new List<Terorist>();
 
 
-        public Hamas(string commandInChief)
+        public Hamas()
         {
 
             this.dateOfEstablishment = "";
-            this.commandInChief = commandInChief;
+            this.commandInChief = "";
             
 
         }
@@ -29,29 +29,38 @@ namespace OOP_project_idf
             terorist = new Terorist(name);
             listTerorists.Add(terorist);
         }
-        public string removeTerorist(Terorist name)
+        public string removeTerorist(string name)
         {   
             
-            if (listTerorists.Contains(name)) 
+            if (listTerorists.Equals(name)) 
             {
-                listTerorists.Remove(name);
+                listTerorists.RemoveAt(0);
             }
              return null;   
         }
-        public string getRank(Terorist name)
+
+        public string getRank()
         {
+            string resultName = "";
+            int resultWeapon = 0; 
+
             int max = 0;
+            
             foreach(Terorist t in listTerorists)
             {
-                int som = t.rank * t.weapon;
-                if ( < max)
+                int result = t.rank * t.weapon;
+                if (result > max)
                 {
-
+                    max = result;
+                    resultName=t.name;
                 }
+
+                
             }
 
-            
-            return null;
+
+            Console.WriteLine($"{resultName} {resultWeapon}{max}"); 
+            return resultName;
         }
 
 

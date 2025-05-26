@@ -52,6 +52,7 @@
     <Compile Include="InformationAboutTheArmy.cs" />
     <Compile Include="M109Artillery.cs" />
     <Compile Include="maneger.cs" />
+    <Compile Include="mangerProjct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StrikeUni.cs" />
     <Compile Include="terorist.cs" />

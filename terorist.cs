@@ -11,10 +11,11 @@ namespace OOP_project_idf
         
         Random random = new Random();
         
-        private string name;
+        public string name;
         public int rank;
+        public int weapon;
         private bool aliveOrDead;
-        public Dictionary<string,int> weapon;
+        public Dictionary<string,int> dictWeapon;
 
      
         private int [] listrank;
@@ -23,9 +24,9 @@ namespace OOP_project_idf
             this.name = name;
             this.aliveOrDead = true;
 
-            weapon = new Dictionary<string, int>()
+            dictWeapon = new Dictionary<string, int>()
             {
-                { "M16", 2 },
+                { "M16", 3 },
                 { "AK47", 3 },
                 { "gun", 1 },
                 { "knife", 1 }
@@ -38,10 +39,11 @@ namespace OOP_project_idf
         
         public void addTerorist(string name)
         {   
-            int numRnd1 = random.Next(0, listweapon.Length);
-            int numRnd2 = random.Next(0,5);
+            int numRnd1 = random.Next(0, 3);
+            int numRnd2 = random.Next(1,5);
 
-            this.weapon = listweapon[numRnd1];
+            this.weapon = 1;
+                ;
             this.rank = listrank[numRnd2];
 
             
