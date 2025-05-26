@@ -22,13 +22,13 @@ namespace OOP_project_idf
             
         }
 
-        public void addTerorist(string name, string loction, int cooch)
+        public void addTerorist(string name, string loction, string cooch)
         {
-            if (cooch==1)
+            if (cooch.Equals("1"))
             {
                 this.loction = "home";
             }
-            else if (cooch == 2)
+            else if (cooch.Equals("2"))
             {
                 this.loction = "outside";
             }
