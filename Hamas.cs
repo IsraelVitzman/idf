@@ -5,64 +5,61 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace OOP_project_idf
-{   
-    
+{
     internal class Hamas
     {
         Terorist terorist;
         private string dateOfEstablishment;
         private string commandInChief;
-        
-        static List<Terorist> listTerorists = new List<Terorist>();
 
+        static List<Terorist> listTerorists = new List<Terorist>();
 
         public Hamas()
         {
-
             this.dateOfEstablishment = "1987";
             this.commandInChief = "";
-            
-
         }
+
         public void addToListTerorist(string name)
         {
             terorist = new Terorist(name);
+            terorist.addTerorist(name); 
             listTerorists.Add(terorist);
         }
+
         public string removeTerorist(string name)
-        {   
+        {
             
-            if (listTerorists.Equals(name)) 
+            int removedCount = listTerorists.RemoveAll(t => t.name.Equals(name));
+            if (removedCount > 0)
             {
-                listTerorists.RemoveAt(0);
+                return $"Removed {removedCount} terrorist(s) named {name}";
             }
-             return null;   
+            return "Terrorist not found";
         }
 
         public string getRank()
         {
-            string resultName = "";
-            int resultWeapon = 0; 
+            if (listTerorists.Count == 0) 
+            {
+                return "";
+            }
 
+            string resultName = "";
             int max = 0;
-            
-            foreach(Terorist t in listTerorists)
+
+            foreach (Terorist t in listTerorists)
             {
                 int result = t.rank * t.weapon;
                 if (result > max)
                 {
                     max = result;
-                    resultName=t.name;
+                    resultName = t.name;
                 }
-
-                
             }
-
-            Console.WriteLine($"{resultName} {resultWeapon}{max}"); 
+            Console.WriteLine($"{resultName} threat level: {max}"); 
             return resultName;
         }
-
-
 
         public void getdateOfEstablishment()
         {
@@ -83,7 +80,5 @@ namespace OOP_project_idf
         {
             return listTerorists;
         }
-
-
     }
 }

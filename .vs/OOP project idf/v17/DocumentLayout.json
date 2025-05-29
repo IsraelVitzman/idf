@@ -1,56 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\hamas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:hamas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\terorist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:terorist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\file\\oop-project-idf-20.05\\mangerprojct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:mangerprojct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\informationaboutthearmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:informationaboutthearmy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\attackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:attackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\ahman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:ahman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\strikeuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:strikeuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\f16fighterjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:f16fighterjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\hermes460_zik_drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:hermes460_zik_drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\m109artillery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0808562-DFA8-4F7A-A0E0-C71B4AC4EA92}|OOP project idf.csproj|solutionrelative:m109artillery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 286,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 20,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,138 +22,11 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "mangerProjct.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\mangerProjct.cs",
-              "RelativeDocumentMoniker": "mangerProjct.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\mangerProjct.cs",
-              "RelativeToolTip": "mangerProjct.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwBEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:31:47.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hamas.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Hamas.cs",
-              "RelativeDocumentMoniker": "Hamas.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Hamas.cs",
-              "RelativeToolTip": "Hamas.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAnwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:29:35.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "terorist.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\terorist.cs",
-              "RelativeDocumentMoniker": "terorist.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\terorist.cs",
-              "RelativeToolTip": "terorist.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIA2wBMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:38:02.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StrikeUni.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\StrikeUni.cs",
-              "RelativeDocumentMoniker": "StrikeUni.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\StrikeUni.cs",
-              "RelativeToolTip": "StrikeUni.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:27.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ahman.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Ahman.cs",
-              "RelativeDocumentMoniker": "Ahman.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Ahman.cs",
-              "RelativeToolTip": "Ahman.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:29:46.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Hermes460_Zik_Drone.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Hermes460_Zik_Drone.cs",
-              "RelativeDocumentMoniker": "Hermes460_Zik_Drone.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\Hermes460_Zik_Drone.cs",
-              "RelativeToolTip": "Hermes460_Zik_Drone.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADgvyEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:33.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "attackManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\attackManager.cs",
-              "RelativeDocumentMoniker": "attackManager.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\attackManager.cs",
-              "RelativeToolTip": "attackManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:37.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "F16FighterJet.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\F16FighterJet.cs",
-              "RelativeDocumentMoniker": "F16FighterJet.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\F16FighterJet.cs",
-              "RelativeToolTip": "F16FighterJet.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADgvx0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:35.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InformationAboutTheArmy.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\InformationAboutTheArmy.cs",
-              "RelativeDocumentMoniker": "InformationAboutTheArmy.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\InformationAboutTheArmy.cs",
-              "RelativeToolTip": "InformationAboutTheArmy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAnwAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:17.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "M109Artillery.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\M109Artillery.cs",
-              "RelativeDocumentMoniker": "M109Artillery.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\file\\OOP-project-idf-20.05\\M109Artillery.cs",
-              "RelativeToolTip": "M109Artillery.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:24:58.029Z"
             }
           ]
         },
         {
-          "DockedHeight": 114,
+          "DockedHeight": 380,
           "SelectedChildIndex": -1,
           "Children": [
             {

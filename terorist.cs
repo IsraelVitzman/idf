@@ -7,24 +7,21 @@ using System.Threading.Tasks;
 namespace OOP_project_idf
 {
     internal class Terorist
-    {   
-        
-        Random random = new Random();
-        
+    {
+        static Random random = new Random(); 
+
         public string name;
         public int rank;
         public int weapon;
         private bool aliveOrDead;
+        
+        public Dictionary<string, int> dictWeapon;
+        private int[] listrank;
 
-
-        public Dictionary<string,int> dictWeapon;
-        private int [] listrank;
-
-        public Terorist(string name) 
+        public Terorist(string name)
         {
             this.name = name;
             this.aliveOrDead = true;
-
             dictWeapon = new Dictionary<string, int>()
             {
                 { "M16", 3 },
@@ -32,33 +29,22 @@ namespace OOP_project_idf
                 { "gun", 1 },
                 { "knife", 1 }
             };
-
-            listrank = new int[] { 1, 2, 3, 4, 5};
-
-
+            listrank = new int[] { 1, 2, 3, 4, 5 };
         }
-        
+
         public void addTerorist(string name)
-        {   
-            int numRnd1 = random.Next(0, 3);
-            int numRnd2 = random.Next(1,5);
+        {
+            int numRnd1 = random.Next(0, 4); 
+            int numRnd2 = random.Next(0, 5); 
 
-            this.weapon = 1;
-                ;
+           
+            this.weapon = dictWeapon.Values.ElementAt(numRnd1);
             this.rank = listrank[numRnd2];
-
-            
-
         }
-        public bool alive(string name)
+
+        public bool alive() 
         {
             return aliveOrDead;
         }
-        
-        
-
-
-
-
     }
 }

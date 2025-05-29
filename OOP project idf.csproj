@@ -49,9 +49,9 @@
     <Compile Include="F16FighterJet.cs" />
     <Compile Include="Hamas.cs" />
     <Compile Include="Hermes460_Zik_Drone.cs" />
+    <Compile Include="Http.cs" />
     <Compile Include="InformationAboutTheArmy.cs" />
     <Compile Include="M109Artillery.cs" />
-    <Compile Include="maneger.cs" />
     <Compile Include="mangerProjct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StrikeUni.cs" />

@@ -22,36 +22,39 @@ namespace OOP_project_idf
             fuel = 100;
             efficiency = "people, vehicles";
             bomb = "personnel or armored vehicles";
-
         }
-        public  void Strike()
+
+        public void Strike()
         {
             Console.WriteLine($"Strike initiated with: {nameForValidity}, Hits: {numberOfHits}, Fuel: {fuel}, Efficiency: {efficiency}");
         }
-        public  int NumberOfHits()
+
+        public int NumberOfHits()
         {
             return numberOfHits;
         }
+
         public int setNumberOfHits(int numberOfHits)
         {
             this.numberOfHits = numberOfHits;
             return this.numberOfHits;
         }
 
-        public  int Fuel()
+        public int Fuel()
         {
             return fuel;
         }
 
-        public  string Efficiency()
+        public string Efficiency()
         {
             return efficiency;
         }
 
-        public  string NameForValidity()
+        public string NameForValidity()
         {
             return nameForValidity;
         }
+
         public string Bomb()
         {
             return bomb;

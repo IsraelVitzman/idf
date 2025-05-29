@@ -16,41 +16,42 @@ namespace ConsoleApp27
             nameForValidity = "F16FighterJet";
             numberOfHits = 8;
             fuel = 100;
-            efficiency = "bilding";
-            pylot = " Operated by a pilot";
-            bomb = " 0.5 ton or 1 ton";
-
+            efficiency = "building"; 
+            pylot = "Operated by a pilot";
+            bomb = "0.5 ton or 1 ton";
         }
 
-        public  void Strike()
+        public void Strike()
         {
             Console.WriteLine($"Strike initiated with: {nameForValidity}, Hits: {numberOfHits}, Fuel: {fuel}, Efficiency: {efficiency}");
         }
 
-        public  int NumberOfHits()
+        public int NumberOfHits()
         {
             return numberOfHits;
         }
+
         public int setNumberOfHits(int numberOfHits)
         {
             this.numberOfHits = numberOfHits;
             return this.numberOfHits;
         }
 
-        public  int Fuel()
+        public int Fuel()
         {
             return fuel;
         }
 
-        public  string Efficiency()
+        public string Efficiency()
         {
             return efficiency;
         }
 
-        public  string NameForValidity()
+        public string NameForValidity()
         {
             return nameForValidity;
         }
+
         public string Bomb()
         {
             return bomb;

@@ -23,12 +23,14 @@ namespace OOP_project_idf
             fuel = 100;
             efficiency = "open spaces";
             bomb = "Explosive shells";
-
+            pylot = ""; 
         }
+
         public void Strike()
         {
-            Console.WriteLine($"Strike initiated with: {nameForValidity}, Hits: {numberOfHits}, Fuel: {fuel}, Efficiency: {efficiency}  pylot: {pylot} bomb:{bomb} ");
+            Console.WriteLine($"Strike initiated with: {nameForValidity}, Hits: {numberOfHits}, Fuel: {fuel}, Efficiency: {efficiency}, pylot: {pylot}, bomb: {bomb}");
         }
+
         public int setNumberOfHits(int numberOfHits)
         {
             this.numberOfHits = numberOfHits;
@@ -54,7 +56,8 @@ namespace OOP_project_idf
         {
             return nameForValidity;
         }
-        public string Bomb() 
+
+        public string Bomb()
         {
             return bomb;
         }
